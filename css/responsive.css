@@ -104,8 +104,12 @@
 
     /* FOOTER */
     .flex-footer {
-        padding: 20px;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .left-col {
+        text-align: left;
+        padding-left: 20px;
     }
 }
