@@ -1,0 +1,73 @@
+/* RESPONSIVE TABLET */
+@media screen and (min-width: 768px) {
+    /* COMMON */
+    /* Layout */
+    .container {
+        padding: 0 40px;
+    }
+
+    /* HEADER */
+    .header {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    /* MAIN */
+    /* Recipe Section */
+    .recipe-title span {
+        display: inline;
+    }
+
+    /* Banner */
+    .banner {
+        display: inline-block;
+    }
+
+    /* Presentation Section */
+    .pres-content img {
+        display: inline-block;
+        width: 30%;
+        float: left;
+        padding-left: 0;
+        padding-right: 10px;
+        padding-bottom: 0;
+    }
+
+    .pres-content p {
+        padding-top: 10px;
+    }
+}
+
+/* RESPONSIVE DESKTOP */
+@media screen and (min-width: 992px) {
+    /* COMMON */
+    /* Layout */
+    .container {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    /* MAIN */
+    /* Recipe Section */
+    .recipe-section .video-col {
+        width: 70%;
+    }
+
+    .recipe-section .caption-col {
+        width: 30%;
+    }
+
+    /* Social-Media Section */
+    .sm-list span {
+        display: inline;
+    }
+
+    /* FOOTER */
+    .flex-footer {
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
