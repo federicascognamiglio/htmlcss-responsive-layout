@@ -16,6 +16,10 @@ img {
     --text-purple: #4E3969;
     --footer-bg: #7C69A4;
     --main-bg: #F6F5F3;
+    --fb-icon: #1A77F3;
+    --tw-icon: #009EFF;
+    --ig-icon: #DF3D78;
+    --pntr-yt-icon: #E62222;
 }
 
 
@@ -74,7 +78,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
-    box-shadow: 2px 2px 10px  #c3c3c3;
+    box-shadow: 2px 2px 10px  #d1d1d1;
 }
 
 .recipe-section iframe {
@@ -129,6 +133,33 @@ main {
 
 .sm-list span {
     display: none;
+    font-family: "Helvetiva Neue", sans-serif; 
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.fb {
+    color: var(--fb-icon);
+}
+
+.tw {
+    color: var(--tw-icon);
+}
+
+.ig {
+    color: var(--ig-icon);
+}
+
+.pntr,
+.yt {
+    color: var(--pntr-yt-icon);
+}
+
+.sm-list li {
+    background-color: #ffffff;
+    padding: 0.6rem 0.8rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px  #d1d1d1;
 }
 
 /* Banner */

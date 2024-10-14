@@ -33,6 +33,11 @@
         row-gap: 20px;
     }
 
+    /* Social-Media Section */
+    .sm-list li {
+        padding: 0.6rem 3.5rem;
+    }
+
     /* Banner */
     .banner {
         display: inline-block;
@@ -89,6 +94,10 @@
     }
 
     /* Social-Media Section */
+    .sm-list li {
+        padding: 0.6rem 2rem;
+    }
+
     .sm-list span {
         display: inline;
     }
