@@ -1,12 +1,13 @@
 /* RESPONSIVE LARGE MOBILE */
 @media screen and (min-width: 576px) {
+
     /* Presentation Section */
     .pres-content p {
         padding-top: 10px;
     }
 
     .pres-content img {
-        display: inline-block;
+        display: block;
         width: 40%;
         float: left;
         padding-left: 0;
@@ -22,6 +23,7 @@
 
 /* RESPONSIVE TABLET */
 @media screen and (min-width: 768px) {
+
     /* COMMON */
     /* Layout */
     .container {
@@ -68,6 +70,7 @@
 
 /* RESPONSIVE DESKTOP */
 @media screen and (min-width: 992px) {
+
     /* COMMON */
     /* Layout */
     .container {
@@ -92,9 +95,9 @@
     }
 
     .caption-list {
-       flex-wrap: nowrap;
-       row-gap: 20px;
-       flex-direction: column;
+        flex-wrap: nowrap;
+        row-gap: 20px;
+        flex-direction: column;
     }
 
     .caption-list .list-col {
