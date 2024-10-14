@@ -51,7 +51,7 @@ main {
 }
 
 .recipe-section .subtitle {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", sans-serif;
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -73,21 +73,42 @@ main {
 .recipe-section .card {
     display: flex;
     flex-wrap: wrap;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px  #c3c3c3;
+}
+
+.recipe-section iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
 }
 
 .recipe-section .video-col,
 .recipe-section .caption-col {
     width: 100%;
-
-    /* debug */
-    background-color: #ffc0cb;
-    border: 1px solid #800080;
-    min-height: 200px;
 }
 
 .caption-col {
-    padding: 20px;
+    padding: 20px 30px;
+    font-family: "Helvetiva Neue", sans-serif;
 }
+
+.caption-col h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.caption-list {
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.caption-list .list-col {
+  padding-bottom: 10px;
+}
+
 
 /* Social-Media Section */
 .sm-section {

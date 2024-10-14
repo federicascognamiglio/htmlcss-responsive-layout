@@ -22,6 +22,17 @@
         display: inline;
     }
 
+    .caption-list .list-col {
+        padding-bottom: 0;
+        width: calc(100% / 3);
+    }
+
+    .caption-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
     /* Banner */
     .banner {
         display: inline-block;
@@ -65,6 +76,16 @@
 
     .recipe-section .caption-col {
         width: 30%;
+    }
+
+    .caption-list {
+       flex-wrap: nowrap;
+       row-gap: 20px;
+       flex-direction: column;
+    }
+
+    .caption-list .list-col {
+        width: 100%;
     }
 
     /* Social-Media Section */
