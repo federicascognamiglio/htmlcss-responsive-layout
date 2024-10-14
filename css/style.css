@@ -166,21 +166,33 @@ main {
 .banner {
     width: 100%;
     display: none;
-
-    /* debug */
-    background-color: #4E3969;
-    min-height: 50px;
 }
 
 /* Presentation Section */
 .pres-section {
     padding-top: 20px;
     padding-bottom: 40px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.pres-title {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.pres-section hr {
+    width: 20%;
+    border: 1px solid var(--header-title-color);
 }
 
 .pres-content img {
     display: block;
-    padding: 10px 50px;
+    padding: 20px 50px;
+}
+
+.pres-content p {
+    font-weight: 300;
 }
 
 /* FOOTER */
