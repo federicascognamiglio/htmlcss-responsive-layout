@@ -1,3 +1,25 @@
+/* RESPONSIVE LARGE MOBILE */
+@media screen and (min-width: 576px) {
+    /* Presentation Section */
+    .pres-content p {
+        padding-top: 10px;
+    }
+
+    .pres-content img {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        padding-left: 0;
+        padding-right: 10px;
+        padding-bottom: 0;
+    }
+
+    /* Social-Media Section */
+    .sm-list li {
+        padding: 0.6rem 2.5rem;
+    }
+}
+
 /* RESPONSIVE TABLET */
 @media screen and (min-width: 768px) {
     /* COMMON */
@@ -41,20 +63,6 @@
     /* Banner */
     .banner {
         display: inline-block;
-    }
-
-    /* Presentation Section */
-    .pres-content img {
-        display: inline-block;
-        width: 40%;
-        float: left;
-        padding-left: 0;
-        padding-right: 10px;
-        padding-bottom: 0;
-    }
-
-    .pres-content p {
-        padding-top: 10px;
     }
 }
 
