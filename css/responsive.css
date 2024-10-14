@@ -14,6 +14,10 @@
 
     /* MAIN */
     /* Recipe Section */
+    .recipe-title {
+        font-size: 2rem;
+    }
+
     .recipe-title span {
         display: inline;
     }
@@ -51,6 +55,10 @@
 
     /* MAIN */
     /* Recipe Section */
+    .recipe-title {
+        font-size: 2.5rem;
+    }
+
     .recipe-section .video-col {
         width: 70%;
     }
